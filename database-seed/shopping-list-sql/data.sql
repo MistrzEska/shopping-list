@@ -1,3 +1,7 @@
+USE [Shopping_List_Database];
+
+BEGIN TRANSACTION;
+
 insert into Product_Category (Product_Category_Name, Product_Category_Description)
 Values ('warzywa i owoce',''),
 		('woda i napoje',''),
@@ -63,3 +67,5 @@ Values (2, 12, 4),
 		(2, 11, 4),
 		(2, 22, 2),
 		(2, 18, 2);
+
+COMMIT TRANSACTION;

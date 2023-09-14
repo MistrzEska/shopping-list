@@ -1,3 +1,5 @@
+USE [Shopping_List_Database];
+
 Create table Shopping_List (
 	List_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
 	List_Name VARCHAR(70)
